@@ -45,7 +45,7 @@ html {
 }
 
 .navbar .logo a span {
-  color: 	#00FF00;
+  color: 	#00d200;
 }
 .navbar.sticky .logo a span {
   color: white;
@@ -153,7 +153,7 @@ html {
   padding: 8px 20px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid  rgb(173, 173, 173);
+  border: 2px solid rgb(173, 173, 173);
   transition: all 0.3s ease;
 }
 .home .home-content .web {
@@ -200,7 +200,7 @@ section .title::before {
   left: 50%;
   width: 180px;
   height: 3px;
-  background: #00FF00;
+  background: #00c100;
   transform: translateX(-50%);
 }
 section .title::after {
@@ -226,7 +226,7 @@ section .title::after {
 
 /* about section styling */
 .about .title::after {
-  content: "my overview";
+  content: "";
 }
 
 .about .about-content .left {
@@ -367,7 +367,7 @@ section .title::after {
 /* skills section styling */
 .skills .title::after {
   background: #111;
-  content: "my knowledge";
+  content: "";
 }
 .skills .skills-content .column {
   width: calc(50% - 30px);
@@ -395,7 +395,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-  color: #00FF00;
+  color: #00c100;
   background: none;
 }
 .skills .skills-content .right .info {
@@ -468,7 +468,7 @@ section .title::after {
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: #00FF00 !important;
+  background: #00c100 !important;
 }
 
 /* contact section styling */
@@ -566,7 +566,7 @@ section .title::after {
 .contact .right form .button button {
   height: 100%;
   width: 100%;
-  border: 2px solid rgb(173, 173, 173);
+  border: 2px solid  rgb(173, 173, 173);
   background: #008000;
   color: #fff;
   font-size: 22px;
